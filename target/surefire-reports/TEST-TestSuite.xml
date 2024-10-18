@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.966" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\schinna\RestAssuredAutomationFramework\target\test-classes;E:\schinna\RestAssuredAutomationFramework\target\classes;C:\Users\nmalik\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\nmalik\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\nmalik\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\nmalik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nmalik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nmalik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nmalik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nmalik\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nmalik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nmalik\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\nmalik\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\nmalik\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\nmalik\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\nmalik\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\nmalik\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nmalik\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nmalik\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\nmalik\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\nmalik\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\nmalik\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\nmalik\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\nmalik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nmalik\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\nmalik\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\nmalik\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\nmalik\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\nmalik\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\nmalik\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\nmalik\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\nmalik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nmalik\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\nmalik\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\nmalik\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nmalik\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nmalik\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nmalik\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nmalik\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\nmalik\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\nmalik\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\nmalik\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nmalik\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\nmalik\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\nmalik\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\nmalik\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\nmalik\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\nmalik\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\nmalik\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\nmalik\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\nmalik\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\nmalik\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\nmalik\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\nmalik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\nmalik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\nmalik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Vancouver"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\nmalik\AppData\Local\Temp\surefire9257421244316662035\surefirebooter-20241017154842287_3.jar C:\Users\nmalik\AppData\Local\Temp\surefire9257421244316662035 2024-10-17T15-48-42_022-jvmRun1 surefire-20241017154842287_1tmp surefire_0-20241017154842287_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\schinna\RestAssuredAutomationFramework\target\test-classes;E:\schinna\RestAssuredAutomationFramework\target\classes;C:\Users\nmalik\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\nmalik\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\nmalik\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\nmalik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nmalik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nmalik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nmalik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nmalik\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nmalik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nmalik\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\nmalik\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\nmalik\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\nmalik\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\nmalik\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\nmalik\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nmalik\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nmalik\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\nmalik\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\nmalik\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\nmalik\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\nmalik\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\nmalik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nmalik\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\nmalik\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\nmalik\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\nmalik\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\nmalik\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\nmalik\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\nmalik\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\nmalik\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\nmalik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nmalik\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\nmalik\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\nmalik\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nmalik\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nmalik\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nmalik\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nmalik\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\nmalik\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\nmalik\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\nmalik\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nmalik\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\nmalik\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\nmalik\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\nmalik\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\nmalik\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\nmalik\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\nmalik\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\nmalik\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\nmalik\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\nmalik\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\nmalik\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\nmalik\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\nmalik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\nmalik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\nmalik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nmalik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\schinna\RestAssuredAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nmalik\AppData\Local\Temp\surefire9257421244316662035\surefirebooter-20241017154842287_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="NMalik"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nmalik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\nmalik\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="E:\schinna\RestAssuredAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\RSA SecurID Token Common;C:\Software\apache-maven-3.3.9\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\AOMEI Backupper;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21.0.2\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\nmalik\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="createUserdata[201.0, john123, john, Sharma, john@Testing.com, 123456.0, 2.598985898E9](1)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="3.773">
+    <system-out><![CDATA[Rows: 12
+Columns: 7
+201
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "201"
+}
+io.restassured.internal.RestAssuredResponseImpl@30922f8d
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="createUserdata[202.0, Alice123, Alice, Mahajan, Alice@Testing.com, 123456.0, 2.561458978E9](2)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.6">
+    <system-out><![CDATA[202
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "202"
+}
+io.restassured.internal.RestAssuredResponseImpl@764a3e5d
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[203.0, Nikhil123, Nikhil, Malik, Nikhil@Testing.com, 123456.0, 2.591235698E9](3)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.441">
+    <system-out><![CDATA[203
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "203"
+}
+io.restassured.internal.RestAssuredResponseImpl@3c81cd82
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[204.0, Karan123, Karan, Ahuja, Karan@Testing.com, 123456.0, 2.598987458E9](4)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.44">
+    <system-out><![CDATA[204
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "204"
+}
+io.restassured.internal.RestAssuredResponseImpl@1cd2143b
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[205.0, Sanjeev123, Sanjeev, Sanjeev, Sanjeev@Testing.com, 123456.0, 2.361459874E9](5)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.418">
+    <system-out><![CDATA[205
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:51 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "205"
+}
+io.restassured.internal.RestAssuredResponseImpl@34c7232c
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[206.0, Sanju124, Sanju, Goel, Goel@Testing.com, 123456.0, 2.565654589E9](6)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.464">
+    <system-out><![CDATA[206
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:51 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "206"
+}
+io.restassured.internal.RestAssuredResponseImpl@6ac45c0c
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[207.0, Sumit124, Sumit, Chug, Chug@Testing.com, 123456.0, 2.564571236E9](7)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.468">
+    <system-out><![CDATA[207
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:52 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "207"
+}
+io.restassured.internal.RestAssuredResponseImpl@656842bc
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[208.0, Upasana125, Upasana, Chopra, Chopra@Testing.com, 123456.0, 1.234567895E9](8)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.49">
+    <system-out><![CDATA[208
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:52 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "208"
+}
+io.restassured.internal.RestAssuredResponseImpl@6fbf5db2
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[209.0, Vishal125, Vishal, Malik, Malik@Testing.com, 123456.0, 3.216549874E9](9)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.477">
+    <system-out><![CDATA[209
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "209"
+}
+io.restassured.internal.RestAssuredResponseImpl@58a7dc4
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[210.0, Surinder26, Surinder, Bhatnagar, Bhatnagar@Testing.com, 123456.0, 1.593577412E9](10)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.461">
+    <system-out><![CDATA[210
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "210"
+}
+io.restassured.internal.RestAssuredResponseImpl@154b8cb6
+]]></system-out>
+  </testcase>
+  <testcase name="createUserdata[211.0, Pranoy126, Pranoy, Ganguli, Ganguli@Testing.com, 123456.0, 3.693587531E9](11)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.464">
+    <system-out><![CDATA[211
+HTTP/1.1 200 OK
+Date: Thu, 17 Oct 2024 22:48:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "211"
+}
+io.restassured.internal.RestAssuredResponseImpl@4d81e83a
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[john123](1)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.465">
+    <system-out><![CDATA[Rows: 12
+{
+    "id": 201,
+    "username": "john123",
+    "firstName": "john",
+    "lastName": "Sharma",
+    "email": "john@Testing.com",
+    "password": "123456.0",
+    "phone": "2.598985898E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Alice123](2)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.456">
+    <system-out><![CDATA[{
+    "id": 202,
+    "username": "Alice123",
+    "firstName": "Alice",
+    "lastName": "Mahajan",
+    "email": "Alice@Testing.com",
+    "password": "123456.0",
+    "phone": "2.561458978E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Nikhil123](3)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.44">
+    <system-out><![CDATA[{
+    "id": 203,
+    "username": "Nikhil123",
+    "firstName": "Nikhil",
+    "lastName": "Malik",
+    "email": "Nikhil@Testing.com",
+    "password": "123456.0",
+    "phone": "2.591235698E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Karan123](4)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.408">
+    <system-out><![CDATA[{
+    "id": 204,
+    "username": "Karan123",
+    "firstName": "Karan",
+    "lastName": "Ahuja",
+    "email": "Karan@Testing.com",
+    "password": "123456.0",
+    "phone": "2.598987458E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Sanjeev123](5)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.416">
+    <system-out><![CDATA[{
+    "id": 205,
+    "username": "Sanjeev123",
+    "firstName": "Sanjeev",
+    "lastName": "Sanjeev",
+    "email": "Sanjeev@Testing.com",
+    "password": "123456.0",
+    "phone": "2.361459874E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Sanju124](6)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.412">
+    <system-out><![CDATA[{
+    "id": 206,
+    "username": "Sanju124",
+    "firstName": "Sanju",
+    "lastName": "Goel",
+    "email": "Goel@Testing.com",
+    "password": "123456.0",
+    "phone": "2.565654589E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Sumit124](7)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.436">
+    <system-out><![CDATA[{
+    "id": 207,
+    "username": "Sumit124",
+    "firstName": "Sumit",
+    "lastName": "Chug",
+    "email": "Chug@Testing.com",
+    "password": "123456.0",
+    "phone": "2.564571236E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Upasana125](8)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.445">
+    <system-out><![CDATA[{
+    "id": 208,
+    "username": "Upasana125",
+    "firstName": "Upasana",
+    "lastName": "Chopra",
+    "email": "Chopra@Testing.com",
+    "password": "123456.0",
+    "phone": "1.234567895E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Vishal125](9)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.434">
+    <system-out><![CDATA[{
+    "id": 209,
+    "username": "Vishal125",
+    "firstName": "Vishal",
+    "lastName": "Malik",
+    "email": "Malik@Testing.com",
+    "password": "123456.0",
+    "phone": "3.216549874E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Surinder26](10)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.424">
+    <system-out><![CDATA[{
+    "id": 210,
+    "username": "Surinder26",
+    "firstName": "Surinder",
+    "lastName": "Bhatnagar",
+    "email": "Bhatnagar@Testing.com",
+    "password": "123456.0",
+    "phone": "1.593577412E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserNames[Pranoy126](11)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.402">
+    <system-out><![CDATA[{
+    "id": 211,
+    "username": "Pranoy126",
+    "firstName": "Pranoy",
+    "lastName": "Ganguli",
+    "email": "Ganguli@Testing.com",
+    "password": "123456.0",
+    "phone": "3.693587531E9",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUsers[john123](1)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.414">
+    <system-out><![CDATA[Rows: 12
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUsers[Alice123](2)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.438"/>
+  <testcase name="deleteUsers[Nikhil123](3)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.462"/>
+  <testcase name="deleteUsers[Karan123](4)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="7.855"/>
+  <testcase name="deleteUsers[Sanjeev123](5)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.955"/>
+  <testcase name="deleteUsers[Sanju124](6)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.435"/>
+  <testcase name="deleteUsers[Sumit124](7)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.483"/>
+  <testcase name="deleteUsers[Upasana125](8)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.415"/>
+  <testcase name="deleteUsers[Vishal125](9)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.44"/>
+  <testcase name="deleteUsers[Surinder26](10)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.413"/>
+  <testcase name="deleteUsers[Pranoy126](11)" classname="userModuleTestCases.CreateUser_DataDrivenTesting" time="0.436"/>
+</testsuite>
