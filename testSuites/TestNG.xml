@@ -6,7 +6,7 @@
     </listeners>
     <test name="API Automation Tests">
         <classes>
-            <class name="userModuleTestCases.CreateUser_DataDrivenTesting"/>
+            <class name="userModuleTestCases.Create_Delete_Users_DataDrivenTest"/>
         </classes>
     </test>
 </suite>

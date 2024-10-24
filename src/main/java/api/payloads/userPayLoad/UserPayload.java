@@ -1,4 +1,4 @@
-package api.payload;
+package api.payloads.userPayLoad;
 public class UserPayload {
     private int id;
     private String username;

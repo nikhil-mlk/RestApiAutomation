@@ -1,20 +1,22 @@
 package userModuleTestCases;
 import api.endpoints.UserEndPoints;
-import api.payload.UserPayload;
-import api.utlilities.ReadExcel;
+import api.payloads.userPayLoad.UserPayload;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-public class CreateUser {
+public class Create_Update_Delete_SingleUser {
     Faker faker;
     UserPayload userPayload;
     Response response;
     String user=null;
     JsonPath jsonPath;
+    ObjectMapper objectMapper;
+    String finalPayload;
     @BeforeClass
     public void createData() throws JsonProcessingException {
         faker=new Faker();
@@ -26,12 +28,14 @@ public class CreateUser {
         userPayload.setEmail(faker.internet().emailAddress());
         userPayload.setPassword(faker.internet().password(4,5));
         userPayload.setPhone(faker.phoneNumber().cellPhone());
+        objectMapper=new ObjectMapper();
+        finalPayload=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(userPayload);
     }
     @Test
     public void createFirstUser()
     {
         UserEndPoints userEndPoints=new UserEndPoints();
-        response=userEndPoints.createUser(userPayload);
+        response=userEndPoints.createUser(finalPayload);
         Assert.assertEquals(response.getStatusCode(),200);
     }
     @Test(dependsOnMethods = {"createFirstUser"})
@@ -55,7 +59,7 @@ public class CreateUser {
     {
         UserEndPoints userEndPoints=new UserEndPoints();
         userPayload.setEmail("helloTesters@gmail.com");
-        userEndPoints.updateUser(user,userPayload);
+        userEndPoints.updateUser(user,finalPayload);
     }
     @Test(dependsOnMethods = {"updateUser"})
     public void getUserAgainAfterUpdation()
@@ -72,5 +76,4 @@ public class CreateUser {
         System.out.println(response.asPrettyString());
         Assert.assertEquals(response.statusCode(),200);
     }
-
 }

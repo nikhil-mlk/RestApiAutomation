@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="RestAssuredAutomationFramework(failed)">
     <classes>
-      <class name="userModuleTestCases.CreateUser_DataDrivenTesting">
+      <class name="userModuleTestCases.Create_Delete_Users_DataDrivenTest">
         <methods>
           <include name="getUserNames" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10"/>
           <include name="deleteUsers" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10"/>
           <include name="createUserdata" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10"/>
         </methods>
-      </class> <!-- userModuleTestCases.CreateUser_DataDrivenTesting -->
+      </class> <!-- userModuleTestCases.Create_Delete_Users_DataDrivenTest -->
     </classes>
   </test> <!-- RestAssuredAutomationFramework(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

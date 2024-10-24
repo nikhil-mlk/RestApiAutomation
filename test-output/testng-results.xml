@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-17T22:44:52Z" name="Default Suite" finished-at="2024-10-17T22:45:10Z" duration-ms="17611">
+  <suite started-at="2024-10-23T18:39:31Z" name="Default Suite" finished-at="2024-10-23T18:39:49Z" duration-ms="17973">
     <groups>
     </groups>
-    <test started-at="2024-10-17T22:44:52Z" name="RestAssuredAutomationFramework" finished-at="2024-10-17T22:45:10Z" duration-ms="17611">
-      <class name="userModuleTestCases.CreateUser_DataDrivenTesting">
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:53Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:56Z" duration-ms="2728" status="PASS">
+    <test started-at="2024-10-23T18:39:31Z" name="RestAssuredAutomationFramework" finished-at="2024-10-23T18:39:49Z" duration-ms="17973">
+      <class name="userModuleTestCases.Create_Delete_Users_DataDrivenTest">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:31Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:34Z" duration-ms="2105" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:56Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:56Z" duration-ms="486" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:34Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:34Z" duration-ms="440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:56Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:57Z" duration-ms="467" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:34Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:34Z" duration-ms="462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:57Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:57Z" duration-ms="428" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:34Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:35Z" duration-ms="507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:57Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:57Z" duration-ms="405" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:35Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:35Z" duration-ms="486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:57Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:58Z" duration-ms="444" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:35Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:36Z" duration-ms="486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,7 +253,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:58Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:58Z" duration-ms="449" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:36Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:36Z" duration-ms="498" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -294,7 +294,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:58Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:59Z" duration-ms="442" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:36Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:37Z" duration-ms="485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,7 +335,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:59Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:44:59Z" duration-ms="414" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:37Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:37Z" duration-ms="459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,7 +376,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:44:59Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:45:00Z" duration-ms="433" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:37Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:38Z" duration-ms="476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -417,7 +417,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:00Z" name="createUserdata" data-provider="userData" finished-at="2024-10-17T22:45:00Z" duration-ms="410" status="PASS">
+        <test-method signature="createUserdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:38Z" name="createUserdata" data-provider="userData" finished-at="2024-10-23T18:39:38Z" duration-ms="486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -458,7 +458,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserdata -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:00Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:01Z" duration-ms="419" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:38Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:39Z" duration-ms="533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,7 +469,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:01Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:01Z" duration-ms="454" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:39Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:39Z" duration-ms="514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -480,7 +480,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:01Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:01Z" duration-ms="447" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:39Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:40Z" duration-ms="417" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -491,7 +491,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:01Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:02Z" duration-ms="466" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:40Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:40Z" duration-ms="431" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -502,7 +502,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:02Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:02Z" duration-ms="412" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:40Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:41Z" duration-ms="544" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -513,7 +513,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:02Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:03Z" duration-ms="450" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:41Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:41Z" duration-ms="466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -524,7 +524,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:03Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:03Z" duration-ms="454" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:41Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:42Z" duration-ms="479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -535,7 +535,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:03Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:04Z" duration-ms="428" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:42Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:42Z" duration-ms="447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -546,7 +546,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:04Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:04Z" duration-ms="476" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:42Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:43Z" duration-ms="479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -557,7 +557,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:04Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:05Z" duration-ms="430" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:43Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:43Z" duration-ms="481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -568,7 +568,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:05Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-17T22:45:05Z" duration-ms="457" status="PASS">
+        <test-method signature="getUserNames(java.lang.String)[pri:2, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:43Z" name="getUserNames" data-provider="userNames" finished-at="2024-10-23T18:39:44Z" duration-ms="476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -579,7 +579,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserNames -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:05Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:05Z" duration-ms="405" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:44Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:44Z" duration-ms="439" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -590,7 +590,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:05Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:06Z" duration-ms="447" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:44Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:45Z" duration-ms="473" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -601,7 +601,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:06Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:06Z" duration-ms="410" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:45Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:45Z" duration-ms="419" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -612,7 +612,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:06Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:07Z" duration-ms="409" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:45Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:46Z" duration-ms="453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -623,7 +623,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:07Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:07Z" duration-ms="431" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:46Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:46Z" duration-ms="495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -634,7 +634,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:07Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:08Z" duration-ms="427" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:46Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:46Z" duration-ms="453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -645,7 +645,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:08Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:08Z" duration-ms="433" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:46Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:47Z" duration-ms="452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -656,7 +656,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:08Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:08Z" duration-ms="391" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:47Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:47Z" duration-ms="461" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -667,7 +667,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:08Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:09Z" duration-ms="442" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:47Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:48Z" duration-ms="446" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -678,7 +678,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:09Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:09Z" duration-ms="404" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:48Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:48Z" duration-ms="412" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -689,7 +689,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.CreateUser_DataDrivenTesting@294425a7]" started-at="2024-10-17T22:45:09Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-17T22:45:10Z" duration-ms="428" status="PASS">
+        <test-method signature="deleteUsers(java.lang.String)[pri:3, instance:userModuleTestCases.Create_Delete_Users_DataDrivenTest@5876a9af]" started-at="2024-10-23T18:39:48Z" name="deleteUsers" data-provider="userNames" finished-at="2024-10-23T18:39:49Z" duration-ms="456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -700,7 +700,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUsers -->
-      </class> <!-- userModuleTestCases.CreateUser_DataDrivenTesting -->
+      </class> <!-- userModuleTestCases.Create_Delete_Users_DataDrivenTest -->
     </test> <!-- RestAssuredAutomationFramework -->
   </suite> <!-- Default Suite -->
 </testng-results>

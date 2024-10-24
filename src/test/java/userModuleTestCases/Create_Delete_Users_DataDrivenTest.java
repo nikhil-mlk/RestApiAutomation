@@ -1,20 +1,19 @@
 package userModuleTestCases;
 import api.endpoints.UserEndPoints;
-import api.payload.UserPayload;
+import api.payloads.userPayLoad.UserPayload;
 import api.utlilities.DataProviders;
-import api.utlilities.ReadExcel;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.github.javafaker.Faker;
-import io.restassured.path.json.JsonPath;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-public class CreateUser_DataDrivenTesting {
+public class Create_Delete_Users_DataDrivenTest {
     UserPayload userPayload;
     Response response;
+    ObjectMapper objectMapper;
+    String finalPayload;
     @Test(priority=1, dataProvider = "userData", dataProviderClass = DataProviders.class)
-    public void createUserdata(String userId, String Uname, String fName, String lName, String emailId, String pas, String ph){
+    public void createUsers(String userId, String Uname, String fName, String lName, String emailId, String pas, String ph) throws JsonProcessingException {
         userPayload=new UserPayload();
         userPayload.setId((Double.valueOf(userId)).intValue());
         System.out.println(userPayload.getId());
@@ -24,9 +23,9 @@ public class CreateUser_DataDrivenTesting {
         userPayload.setEmail(emailId);
         userPayload.setPassword(pas);
         userPayload.setPhone(ph);
-        response=UserEndPoints.createUser(userPayload);
-        response.then().log().all().toString();
-        System.out.println(response);
+        objectMapper=new ObjectMapper();
+        finalPayload=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(userPayload);
+        response=UserEndPoints.createUser(finalPayload);
         Assert.assertEquals(response.getStatusCode(),200);
     }
     @Test(priority=2, dataProvider = "userNames", dataProviderClass = DataProviders.class)

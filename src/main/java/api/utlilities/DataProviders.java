@@ -11,4 +11,9 @@ public class DataProviders {
     {
         return ReadExcel.getUserNames("TestData_UserModule","create user");
     }
+    @DataProvider(name="petData")
+    public Object[] addPetProvider()
+    {
+        return ReadExcel.readUserDataFromExcelFile("TestData_UserModule","add pet",2);
+    }
 }
