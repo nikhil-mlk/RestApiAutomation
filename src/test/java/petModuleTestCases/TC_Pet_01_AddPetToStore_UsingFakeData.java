@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
-public class AddPetToStore_UsingFakeDataTest {
+public class TC_Pet_01_AddPetToStore_UsingFakeData {
     ObjectMapper objectMapper;
     String finalPayLoad;
     Response response;
