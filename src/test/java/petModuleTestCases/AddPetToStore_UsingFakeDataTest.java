@@ -10,7 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
-
 public class AddPetToStore_UsingFakeDataTest {
     ObjectMapper objectMapper;
     String finalPayLoad;
@@ -19,19 +18,15 @@ public class AddPetToStore_UsingFakeDataTest {
     public void createPetData() throws JsonProcessingException {
         PetPayload pet1=new PetPayload();
         pet1.setId(101);
-
         Category category=new Category();
         category.setId(101);
         category.setName("Bull Dogs");
         pet1.setCategory(category);
-
         pet1.setName("French Bull Dog");
-
         List<String> listOfPhotoUrls = new ArrayList<>();
         listOfPhotoUrls.add("http://photo1.com");
         listOfPhotoUrls.add("http://photo2.com");
         pet1.setPhotoUrls(listOfPhotoUrls);
-
         Tag tag1=new Tag();
         List<Tag> tagsList=new ArrayList<>();
         tag1.setId(101);
@@ -42,13 +37,11 @@ public class AddPetToStore_UsingFakeDataTest {
         tagsList.add(tag1);
         tagsList.add(tag2);
         pet1.setTags(tagsList);
-
         pet1.setStatus("available");
         objectMapper=new ObjectMapper();
         finalPayLoad=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(pet1);
         response=PetEndPoints.addNewPet(finalPayLoad);
         System.out.println(response.asPrettyString());
-
         Assert.assertEquals(response.statusCode(),200);
     }
 }

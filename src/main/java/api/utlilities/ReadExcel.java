@@ -54,6 +54,26 @@ public class ReadExcel {
         }
         return data;
     }
+    public static Object[] getPetIds(String fileName, String sheetName) {
+        Object[] data = null;
+        try {
+            filePath = new File("testData/" + fileName + ".xlsx");
+            fileInputStream = new FileInputStream(filePath.getAbsoluteFile());
+            xssfWorkbook = new XSSFWorkbook(fileInputStream);
+            xssfSheet = xssfWorkbook.getSheet(sheetName);
+            numberOfRows = xssfSheet.getPhysicalNumberOfRows();
+            numberOfCells = xssfSheet.getRow(1).getLastCellNum();
+            System.out.println("Rows: " + numberOfRows);
+            data = new Object[numberOfRows-1];
+            for (int currentRow = 1; currentRow < numberOfRows; currentRow++) {
+                data[currentRow-1] = xssfSheet.getRow(currentRow).getCell(0).toString();
+            }
+            xssfWorkbook.close();
+        } catch (Exception a) {
+            System.out.println("Problem with Excel file location");
+        }
+        return data;
+    }
 }
 
 
