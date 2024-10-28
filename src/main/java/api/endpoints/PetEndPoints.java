@@ -50,4 +50,18 @@ public class PetEndPoints {
                 .get(properties.getProperty("getPetIdURL"));
         return response;
     }
+    public static Response updatePet(String petID, String name, String status)
+    {
+        int petIdInt = (int)Double.parseDouble(petID);
+        loadPropertiesFile();
+        response=given()
+                .header("accept","application/json")
+                .header("Content-Type","application/x-www-form-urlencoded")
+                .pathParam("petId",petIdInt)
+                .formParam("name",name)
+                .formParam("status",status)
+                .when()
+                .post(properties.getProperty("updatePetWithFormData"));
+        return response;
+    }
 }
