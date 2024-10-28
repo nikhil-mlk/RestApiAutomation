@@ -2,6 +2,7 @@ package api.endpoints;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.util.Properties;
 import static io.restassured.RestAssured.*;
@@ -61,7 +62,20 @@ public class PetEndPoints {
                 .formParam("name",name)
                 .formParam("status",status)
                 .when()
-                .post(properties.getProperty("updatePetWithFormData"));
+                .post(properties.getProperty("updatePetWithFormDataURL"));
+        return response;
+    }
+    public static Response PetPostImage(String petID)
+    {
+        File uploadFile=new File("testData/RestAPI.jpg");
+        int petIdInt = (int)Double.parseDouble(petID);
+        response=given()
+                .header("accept","application/json")
+                .header("Content-Type","multipart/form-data")
+                .pathParam("petId",petIdInt)
+                .multiPart("file",uploadFile)
+                .when()
+                .post(properties.getProperty("postPetWithImageURL"));
         return response;
     }
 }
