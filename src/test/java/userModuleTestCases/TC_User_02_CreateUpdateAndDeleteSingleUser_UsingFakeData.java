@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-public class Create_Update_Delete_SingleUser {
+public class TC_User_02_CreateUpdateAndDeleteSingleUser_UsingFakeData {
     Faker faker;
     UserPayload userPayload;
     Response response;
@@ -49,7 +49,6 @@ public class Create_Update_Delete_SingleUser {
     {
         UserEndPoints userEndPoints=new UserEndPoints();
         response=userEndPoints.getUser(user);
-        System.out.println(response.asPrettyString());
         jsonPath=response.jsonPath();
         String userNameInResponse=jsonPath.get("username");
         Assert.assertEquals(userNameInResponse,user);
@@ -66,14 +65,12 @@ public class Create_Update_Delete_SingleUser {
     {
         UserEndPoints userEndPoints=new UserEndPoints();
         response=userEndPoints.getUser(user);
-        System.out.println(response.asPrettyString());
     }
     @Test(dependsOnMethods = {"getUserAgainAfterUpdation"})
     public void deleteuser()
     {
         UserEndPoints userEndPoints=new UserEndPoints();
         response=userEndPoints.deleteUser(user);
-        System.out.println(response.asPrettyString());
         Assert.assertEquals(response.statusCode(),200);
     }
 }

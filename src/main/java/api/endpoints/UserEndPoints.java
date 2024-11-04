@@ -1,19 +1,14 @@
 package api.endpoints;
-
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Properties;
-
 import static io.restassured.RestAssured.*;
-
 public class UserEndPoints {
     static Response response = null;
     private static Properties properties;
     private static BufferedReader reader;
-
     public static void loadPropertiesFile() {
         properties = new Properties();
         try {

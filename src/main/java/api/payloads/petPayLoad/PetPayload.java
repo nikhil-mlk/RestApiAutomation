@@ -7,7 +7,6 @@ public class PetPayload {
     private List<String> photoUrls;
     private List<Tag> tags;
     private String status;
-
     public int getId() {
         return id;
     }

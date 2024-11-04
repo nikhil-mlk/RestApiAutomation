@@ -10,7 +10,7 @@ public class ReadExcel {
     static private XSSFSheet xssfSheet = null;
     static private int numberOfRows = 0;
     static private int numberOfCells = 0;
-    public static Object[][] readUserDataFromExcelFile(String fileName, String sheetName, Integer startRowNumber) {
+    public static Object[][] readDataFromExcelFile(String fileName, String sheetName, Integer startRowNumber) {
         Object[][] data = null;
         try {
             filePath = new File("testData/" + fileName + ".xlsx");

@@ -22,7 +22,7 @@ public class PetEndPoints {
     }
     public static Response addNewPet(String serializedPayload) {
         loadPropertiesFile();
-        response = given()
+        response=given()
                 .headers("accept", "application/json").contentType(ContentType.JSON)
                 .baseUri(properties.getProperty("postPetUrl"))
                 .body(serializedPayload)
@@ -32,7 +32,7 @@ public class PetEndPoints {
     }
     public static Response getPetByStatus(String status)
     {
-        response = given()
+        response=given()
                 .header("accept","application/json")
                 .baseUri(properties.getProperty("getPetUrl"))
                 .queryParam("status",status)

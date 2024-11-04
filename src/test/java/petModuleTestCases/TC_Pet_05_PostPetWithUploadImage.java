@@ -14,7 +14,6 @@ public class TC_Pet_05_PostPetWithUploadImage {
         finalPayLoad=CreatePetModuleData.createPetData(id, categoryId, categoryName, name, photoUrl, tagId, tagName, status);
         PetEndPoints.addNewPet(finalPayLoad);
         response=PetEndPoints.PetPostImage(id);
-        System.out.println(response.asPrettyString());
         Assert.assertEquals(response.getStatusCode(),200);
     }
     @Test(priority=2)

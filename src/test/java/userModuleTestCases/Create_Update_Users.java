@@ -14,7 +14,6 @@ public class Create_Update_Users {
     Response response;
     ObjectMapper objectMapper;
     String finalPayLoad;
-
     @Test(priority=1, dataProvider = "userData", dataProviderClass = DataProviders.class)
     public void createAndUpdateUsers(String userId, String Uname, String fName, String lName, String emailId, String pas, String ph) throws JsonProcessingException {
         faker=new Faker();
